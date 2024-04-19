@@ -1,10 +1,10 @@
 // Define an object to store personal information
 const personInfo = {
-  fullName: "Zelalem Tadesse",
+  fullName: "Zola Tadesse",
   age: "unknown", 
   hometown: "Mekhoni",
   favoriteColor: "blue",
-  isStudent: true
+  isStudent: false
 };
 
 // Output the full name using a template literal for improved readability
