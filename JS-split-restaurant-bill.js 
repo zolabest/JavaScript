@@ -1,0 +1,15 @@
+
+let totalBillAmount = 120.00;
+let numberOfPeople = 4; 
+let tipPercentage = 15; 
+let taxPercentage = 8; 
+
+let tipAmount = totalBillAmount * (tipPercentage / 100);
+
+let taxAmount = totalBillAmount * (taxPercentage / 100);
+
+let totalAmount = totalBillAmount + tipAmount + taxAmount;
+
+let amountPerPerson = totalAmount / numberOfPeople;
+
+console.log("Each person needs to pay: $" + amountPerPerson);
