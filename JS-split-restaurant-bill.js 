@@ -12,4 +12,5 @@ let totalAmount = totalBillAmount + tipAmount + taxAmount;
 
 let amountPerPerson = totalAmount / numberOfPeople;
 
-console.log("Each person needs to pay: $" + amountPerPerson);
+console.log(`If the Total Bill Amount: ${totalBillAmount} , Number Of People: ${numberOfPeople} ,Tip Percentage:${tipPercentage} , and the tax Percentage: ${taxPercentage} 
+ Each person needs to pay: ${amountPerPerson}`);
