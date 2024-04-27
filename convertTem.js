@@ -1,5 +1,5 @@
 
-let originalCelsius = 25; 
+let originalCelsius = 20; 
 
 let fahrenheit = (originalCelsius * 9/5) + 32;
 
